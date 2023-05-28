@@ -1,0 +1,11 @@
+<p style="color: green"><%= notice %></p>
+<h1>Posts</h1>
+<div id="posts">
+  <% @posts.each do |post| %>
+    <%= render post %>
+    <p>
+      <%= link_to "Show this post", post %>
+    </p>
+  <% end %>
+</div>
+<%= button_to "Add post", posts_path, method: :post, class: "bg-indigo-600 rounded-lg p-3 text-white" %>

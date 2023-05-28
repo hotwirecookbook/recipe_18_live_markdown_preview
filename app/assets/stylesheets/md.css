@@ -1,0 +1,15 @@
+.markdown h1 {
+  @apply text-3xl;
+}
+
+.markdown h2 {
+  @apply text-2xl;
+}
+
+.markdown h3 {
+  @apply text-xl;
+}
+
+.markdown ul {
+  @apply list-disc;
+}
